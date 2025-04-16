@@ -99,6 +99,67 @@ Pull requests are welcome! For major changes, please open an issue first to disc
  
  MIT License
 
+🚀 Run DIASENSE: Diabetes Prediction Model
+
+
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/DIASENSE.git
+cd DIASENSE
+2. Install Requirements
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3. Run the Model
+python
+Copy
+Edit
+# diasense_predict.py
+
+import joblib
+import numpy as np
+
+# Load the trained model
+model = joblib.load('models/diasense_model.pkl')  # Adjust path if different
+
+# Sample input (replace with actual values)
+# Example input: [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]
+sample_input = np.array([[2, 120, 70, 20, 79, 25.0, 0.5, 33]])
+
+# Make prediction
+prediction = model.predict(sample_input)
+
+# Output result
+if prediction[0] == 1:
+    print("⚠️ High risk of diabetes detected.")
+else:
+    print("✅ Low risk of diabetes.")
+4. Example Command to Run
+bash
+Copy
+Edit
+python diasense_predict.py
+🧠 Model Info
+Model type: Logistic Regression (or specify your model)
+
+Trained on: [Dataset name, e.g., PIMA Indians Diabetes Dataset]
+
+Accuracy: 82%
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
