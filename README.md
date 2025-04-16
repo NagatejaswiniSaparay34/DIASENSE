@@ -8,6 +8,7 @@ using Python and the latest data science tools, DIASENSE leverages the power of 
 "Empowering health decisions with data-driven precision."
 
 🔍 Features
+
 Predicts the likelihood of diabetes based on real-world medical data
 
 Clean, well-documented, and modular codebase
