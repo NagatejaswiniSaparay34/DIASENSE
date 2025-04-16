@@ -150,6 +150,7 @@ Trained on: [Dataset name, e.g., PIMA Indians Diabetes Dataset]
 Accuracy: 82%
 
 
+For any queries feel free to reach me out through my sakareyprakash@gmail.com
 
 
 
