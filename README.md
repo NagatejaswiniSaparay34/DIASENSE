@@ -1,8 +1,9 @@
-🌟 DIASENSE — Your Smart Diabetes Prediction companion
+🌟 DIASENSE — Your Smart Diabetes Prediction companion 
 
-  DIASENSE is a powerful, intelligent, and user-friendly machine learning model designed to predict diabetes using medical data. Built 
-  using Python and the latest data science tools, DIASENSE leverages the power of predictive analytics to assist healthcare professionals 
-  and researchers in early diagnosis.
+   (https://github.com/user-attachments/assets/afd068c0-de8c-4cdb-93c6-d0e3fe48ddeb)
+ 
+DIASENSE is a powerful, intelligent, and user-friendly machine learning model designed to predict diabetes using medical data. Built 
+using Python and the latest data science tools, DIASENSE leverages the power of predictive analytics to assist healthcare professionals  and researchers in early diagnosis.
 
 "Empowering health decisions with data-driven precision."
 
